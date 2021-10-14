@@ -5,10 +5,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-h1{
+.photography{
     font-size: 25px;
     font-weight: 500;
     color: #fff;
+    float: left;
+    padding: 20px;
+    margin: 5px;
+
 }
 nav{
     width: 100%;
@@ -26,9 +30,15 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 500;
     padding: 20px;
     margin: 5px;
 
+} 
+.background{
+    background-image: url(https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F60db6f4968299bd8be481fd8%2FYoung-woman-taking-a-picture%2F960x0.jpg%3Ffit%3Dscale);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
